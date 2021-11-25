@@ -4,6 +4,7 @@
     <Main/>
     <Shop/>
     <Dc/>
+    <Follow/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import Shop from "./components/Shop.vue";
 import Dc from "./components/Dc.vue";
+import Follow from "./components/Follow.vue";
 
 export default {
   name: "App",
@@ -19,7 +21,8 @@ export default {
     Header,
     Main,
     Shop, 
-    Dc
+    Dc,
+    Follow
   },
 };
 </script>

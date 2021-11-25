@@ -58,14 +58,15 @@ section{
             padding: 10px;
             color: white;
             width: 50px;
+            vertical-align: middle;
         }
         li {
             font-size: 13px;
             color: white;
             display: inline-block;
             margin: 30px;
+            font-weight: bold;
         }
-        
     }
 }
 </style>

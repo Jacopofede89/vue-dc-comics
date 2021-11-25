@@ -67,7 +67,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 header {
-    height: 145px;
+    height: 120px;
     section {
         width: 80%;
         margin: auto;
@@ -86,12 +86,12 @@ header {
                 font-size: 12px;
                 font-weight: bold;
                 &:hover {
-                    color: blue;
+                    background-color: blue;
                     cursor: pointer;
                 }
                 &.active{
                     color: blue;
-                    padding-bottom: 66px;
+                    padding-bottom: 40px;
                     border-bottom: 5px solid blue;
                 }
             }

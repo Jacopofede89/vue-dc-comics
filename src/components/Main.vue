@@ -16,7 +16,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     section {
-        height: 140px;
+        height: 120px;
         background-color: #1C1C1C;
         div {
             width: 80%;
@@ -24,6 +24,7 @@ export default {
             line-height: 120px;
             color: white;
             font-size: 20px;
+            font-weight: bold;
         }
         img {
             width: 80%;
