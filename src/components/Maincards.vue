@@ -23,5 +23,11 @@ export default {
             height: 170px;
             padding: 10px;
         }
+        h3{
+            padding:0 8px;
+            text-transform: uppercase;
+            max-width: 150px;
+            text-align: left;
+        }
     }
 </style>

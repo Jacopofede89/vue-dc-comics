@@ -1,6 +1,6 @@
 <template>
   <section>
-      <span id="current">CURRENT SERIES</span>
+      <button class="current">CURRENT SERIES</button>
       <div id="productlist">
           <Maincards
           v-for="card, i in cards"
@@ -122,13 +122,14 @@ export default {
             background-color:rgba(2,130,249,255);
             font-weight: bold;
         }
-        #current{
-            padding:5px 35px;
-            line-height: 100px;
+    
+    }
+    .current{
+            transform: translate(-500px,-10px);
+            border: none;
+            padding:15px 15px;
             color: white;
             background-color:rgba(2,130,249,255);
             font-weight: bold;
-        }
     }
-    
 </style>
