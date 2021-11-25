@@ -1,7 +1,7 @@
 <template>
   <header>
       <section>
-          <img src="../assets/img/dc-logo.png" alt="">
+          <img src="assets/img/dc-logo.png" alt="">
 
         <ul>
             <li v-for="nav, i in navs" :key="i" :class="nav.visible === true ? 'active' : ''">{{nav.text}}</li>

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header/>
+    <Jumbo/>
     <Main/>
     <Shop/>
     <Dc/>
@@ -10,6 +11,7 @@
 
 <script>
 import Header from "./components/Header.vue";
+import Jumbo from "./components/Jumbo.vue";
 import Main from "./components/Main.vue";
 import Shop from "./components/Shop.vue";
 import Dc from "./components/Dc.vue";
@@ -19,6 +21,7 @@ export default {
   name: "App",
   components: {
     Header,
+    Jumbo,
     Main,
     Shop, 
     Dc,

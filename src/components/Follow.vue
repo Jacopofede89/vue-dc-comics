@@ -10,7 +10,6 @@
               <li><img src="assets/img/footer-pinterest.png" alt=""></li>
               <li><img src="assets/img/footer-periscope.png" alt=""></li>
           </ul>
-
         <span>FOLLOW US</span>
     </div>
 
@@ -27,7 +26,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     section {
-        height: 100px;
+        height: 120px;
         background-color:rgba(48,48,48,255);
         .img_footer {
             width: 80%;

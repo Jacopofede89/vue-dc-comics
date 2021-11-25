@@ -15,27 +15,27 @@ export default {
      return {
         pics: [
             {
-                img: "../img/buy-comics-digital-comics.png",
+                img: "assets/img/buy-comics-digital-comics.png",
                 text: "DIGITAL COMICS",
                 visible: true
             },
             {
-                img: "../img/buy-comics-merchandise.png",
+                img: "assets/img/buy-comics-merchandise.png",
                 text: "DC MERCHANDISE",
                 visible: false
             },
             {
-                img: "../img/buy-comics-shop-locator.png",
+                img: "assets/img/buy-comics-shop-locator.png",
                 text: "SUBSCRIPTION",
                 visible: false
             },
             {
-                img: "../img/buy-comics-subscriptions.png",
+                img: "assets/img/buy-comics-subscriptions.png",
                 text: "COMIC SHOP LOCATOR",
                 visible: false
             },
             {
-                img: "../img/buy-dc-power-visa.svg",
+                img: "assets/img/buy-dc-power-visa.svg",
                 text: "DC POWER VISA",
                 visible: false
             }
